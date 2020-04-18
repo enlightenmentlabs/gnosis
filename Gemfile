@@ -17,13 +17,14 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webpacker", "~> 4.0"
 
 group :development, :test do
+  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "dotenv-rails"
   gem "pry"
   gem "guard-rspec"
-  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :test do
+  gem "capybara"
   gem "factory_bot_rails"
   gem "rspec-rails"
 end
