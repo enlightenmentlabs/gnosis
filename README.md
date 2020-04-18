@@ -60,7 +60,7 @@ So let's say your organization if "Foo Associates" (I know, not original: see
   to manage the organization; you know, stuff like inviting people, etc.
 - [__/content__](https://foo_associates.gnos.is/content) - a user interface to
   your content: stuff like dashboards, etc.
-- [__/files__](https://foo_associates.gnos.is/files) - contains your org's
+- [__/browse__](https://foo_associates.gnos.is/browse) - contains your org's
   files.  More on this below.
 
 If you choose the Easy Way:tm:, you can delete this repository and go on your
